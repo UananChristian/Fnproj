@@ -1,0 +1,551 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-image: url('bg.jpg');
+    color: #333;
+}
+
+/* Header */
+header {
+    background-image: url(hd.png); 
+    padding: 100px 100px;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: contain; /* Fits the image within the container */
+    background-position: center; /* Centers the image */
+}
+
+
+
+
+header .logo-container img {
+    width: 80px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0c1654;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0.5rem 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('jp3.png'); /* Replace with your banner image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 390px 400px;
+    position: relative;
+}
+
+.banner-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/* Graduates Section */
+.graduates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #ffffff;
+    padding: 2rem 1rem;
+}
+
+.graduate-card {
+    text-align: center;
+    margin: 1rem;
+    width: 150px;
+}
+
+.graduate-card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.graduate-card p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.graduate-card small {
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Section Styling */
+.modern-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Image Styling */
+.image-container {
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 45%;
+    border: 4px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Content Styling */
+.text-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.badge {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin: 15px 0;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.features-list li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #34495e;
+}
+
+blockquote {
+    background-color: #ffecec;
+    padding: 15px;
+    border-left: 5px solid #ff6b6b;
+    font-style: italic;
+    color: #555;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e04e4e;
+}
+
+
+
+
+
+
+.container2 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Event Section Grid */
+.events-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Event Card */
+.event-card {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.event-details {
+    padding: 15px;
+}
+
+.event-date {
+    display: block;
+    font-size: 0.9rem;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.event-details h3 {
+    font-size: 1.1rem;
+    margin: 5px 0 10px;
+    color: #333;
+}
+
+.event-details a {
+    text-decoration: none;
+    color: #333;
+}
+
+.event-details a:hover h3 {
+    color: #007bff;
+}
+
+.event-details p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+.officers-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.officers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Officer Card */
+.officer-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.officer-card:hover {
+    transform: translateY(-5px);
+}
+
+.officer-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.officer-info {
+    padding: 15px;
+}
+
+.officer-info h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.officer-info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.container3 {
+    
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+#carousel {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#carousel h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-img {
+    width: 100%; /* Take the full width of the container */
+    height: 500px; /* Set a fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 10;
+    font-size: 24px;
+}
+
+.carousel-button.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.carousel-button.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 300px;
+    }
+
+    .carousel-button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-img {
+        height: 200px;
+    }
+
+    .carousel-button {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0c1654;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact-info {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info strong {
+    color: #ffeb3d;
+    margin-right: 8px;
+}
+
+.contact-info p svg {
+    margin-right: 8px;
+}
+
+/* Icons for email, phone, WhatsApp */
+footer p svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffeb3d;
+}
+
+
+
+
+.floating-button {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.floating-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.floating-button img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
