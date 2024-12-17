@@ -6,7 +6,7 @@ function changeSlide(direction) {
     
     currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
 
-    const offset = -currentSlide * 100;  // Move to the next slide in percentage
+    const offset = -currentSlide * 100; 
     slides.forEach(slide => {
         slide.style.transform = `translateX(${offset}%)`;
     });
