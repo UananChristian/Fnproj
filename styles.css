@@ -14,8 +14,8 @@ body {
 
 /* Header */
 header {
-    background-image: url(hd.png); 
-    padding: 100px 100px;
+    background-image: url(hd3.png); 
+    padding: 43px;
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-size: contain; /* Fits the image within the container */
     background-position: center; /* Centers the image */
